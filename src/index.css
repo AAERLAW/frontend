@@ -1,0 +1,72 @@
+html,
+body {
+    /* height: 100%; */
+    font-family: "Gilroy" !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+.modal-fullScreen {
+    width: 90vw;
+    height: 90vh;
+    max-height: calc(80vh - 2.5rem);
+    max-width: calc(75vw - 2.5rem) !important;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: local("Avenir"), url(./assets/fonts/Avenir/AvenirLTStd-Black.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"), url(./assets/fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"), url(./assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NunitoSans";
+    src: local("NunitoSans"), url(./assets/fonts/NunitoSans/NunitoSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "CircularStd";
+    src: local("CircularStd"), url(./assets/fonts/CircularStd/CircularStd-Bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CircularStd";
+    src: local("CircularStd"), url(./assets/fonts/CircularStd/CircularStd-Medium.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local("Gilroy"), url('./assets/fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local("Gilroy"), url('./assets/fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
